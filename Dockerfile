@@ -2,7 +2,7 @@ FROM debian:jessie-backports
 
 ENV TERM xterm
 ENV DEBIAN_FRONTEND noninteractive
-ENV IMSCP_VERSION   1.4.x
+ENV IMSCP_VERSION   1.5.x
 
 RUN apt-get update -y && apt-get dist-upgrade -y && \
     apt-get install -y ca-certificates perl wget whiptail build-essential apt-utils ifupdown libnet-ip-perl && \
